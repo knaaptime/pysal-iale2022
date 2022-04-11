@@ -1,0 +1,28 @@
+name: pysal-iale2022
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python =3.9
+  - mamba
+  - pip
+  - geopandas
+  - descartes
+  - folium
+  - ipython
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - pysal
+  - geosnap
+  - nbconvert
+  - networkx
+  - palettable
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - hvplot
+  - holoviews
+  - geoviews
+  - watermark
+  - rasterio

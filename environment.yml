@@ -26,3 +26,5 @@ dependencies:
   - geoviews
   - watermark
   - rasterio
+  - splot
+  - watermark

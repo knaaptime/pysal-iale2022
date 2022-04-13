@@ -21,3 +21,5 @@ holoviews
 geoviews
 watermark
 rasterio
+splot
+watermark

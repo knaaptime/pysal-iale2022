@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal-iale2022/main?urlpath=lab)
 
+[Access Jupyterhub](http://192.155.82.212)
+
 workshop on the spatial analysis of inequality using pysal and geosnap, delivered at IALE 2022
 
 <p align="center">
@@ -25,8 +27,7 @@ workshop on the spatial analysis of inequality using pysal and geosnap, delivere
 
 2. Second section
 
-   + suglobal and local spatial autocorrelation analysis
-   + subsection
+   + global and local spatial autocorrelation analysis
 
 ### Break
 
@@ -35,12 +36,12 @@ workshop on the spatial analysis of inequality using pysal and geosnap, delivere
 3. Third Section
 
  + neighborhood delineation and analysis; 
-
+ + neighborhood dynamics
 
 4. Fourth Section
 
-   + subsection
-   + subection
+   + segregation analysis
+   + segregation dynamics
 
 ---
 

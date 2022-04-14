@@ -20,6 +20,7 @@ print(f"test significance level = {ginitest.p_value}")
 ginitest.plot()
 
 #### 3
-decomp = DecomposeSegregation(SpatialDissim(scag[scag.county=='Riverside'], group_pop_var='n_hispanic_persons', total_pop_var='n_total_pop'),
-                              SpatialDissim(scag[scag.county=='Ventura'], group_pop_var='n_hispanic_persons', total_pop_var='n_total_pop'))
-decomp.plot('maps')
+
+rside = scag[scag.county=='Riverside']
+d = LocalDistortion(rside, groups=pop_groups)
+d.d.set_index('geoid').max()
